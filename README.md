@@ -14,45 +14,36 @@ She Nicest · 女构未来线上征集
 
 ## 这一句话
 
-健身这轮不追身材变化。追的是：**今天这件旧物被记下来了**。像多邻国的连胜数字，不像一节语言课。
+健身这轮不追身材变化。追的是：**今天这件旧物被记下来了**。
 
 ---
+
+## 现状 2026-09-29
+
+- [x] 题目定义与征集对齐
+- [x] 可行性 / 竞品 / BOM 核查
+- [x] 固件 V0：`firmware/wake_dust/wake_dust.ino`
+- [x] 小程序 V0：今日 / 日历 / 它说 / 绑定
+- [x] 对话代理草稿：`server/talk.js`
+- [ ] 买板：XIAO nRF52840 Sense × 2
+- [ ] 微信开发者工具导入小程序真机跑通
+- [ ] 板 + 小程序闭环
+- [ ] 路演录像
+
+---
+
+## 今天能做的两件事
+
+1. 下单 [XIAO nRF52840 Sense](https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html) × 2
+2. 用微信开发者工具打开 `miniprogram/`，先点「今日」黄按钮演日历
 
 ## 文档
 
 | 文件 | 内容 |
 |---|---|
-| [docs/BRIEF.md](docs/BRIEF.md) | 征集题与产品定义 |
-| [docs/FEASIBILITY.md](docs/FEASIBILITY.md) | 全网可行性（已核对） |
-| [docs/COMPETITORS.md](docs/COMPETITORS.md) | 竞品分析 |
-| [docs/STACK.md](docs/STACK.md) | 技术栈 |
-| [docs/BOM.md](docs/BOM.md) | 零件与 2 万预算 |
-| [docs/SCHEDULE.md](docs/SCHEDULE.md) | 下沉 / 实施排期 |
-| [souls/dumbbell.md](souls/dumbbell.md) | 10kg 人设 |
-| [souls/mirror.md](souls/mirror.md) | 出门镜人设 |
-
----
-
-## 仓库结构
-
-```
-wake-the-dust/
-  firmware/        # 贴片固件（运动唤醒 → BLE）
-  miniprogram/     # 微信小程序「唤醒旧物」
-  server/          # 对话 API 代理、订阅消息
-  souls/           # 灵魂提示词
-  docs/            # 研究与排期
-```
-
----
-
-## 现状
-
-- [x] 题目定义与征集对齐
-- [x] 可行性 / 竞品 / BOM 核查
-- [ ] 买板：XIAO nRF52840 Sense × 2
-- [ ] 固件：一晃发一包
-- [ ] 小程序：今日亮格 + 对话
-- [ ] 路演闭环
-
-后续都在这个仓库里推。
+| [firmware/PROTOCOL.md](firmware/PROTOCOL.md) | BLE 4 字节协议 |
+| [docs/BRIEF.md](docs/BRIEF.md) | 征集题 |
+| [docs/FEASIBILITY.md](docs/FEASIBILITY.md) | 可行性 |
+| [docs/COMPETITORS.md](docs/COMPETITORS.md) | 竞品 |
+| [docs/BOM.md](docs/BOM.md) | 零件 |
+| [docs/SCHEDULE.md](docs/SCHEDULE.md) | 14 天排期 |
