@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/today/today",
+    "pages/bind/bind",
+    "pages/calendar/calendar",
+    "pages/talk/talk"
+  ],
+  "window": {
+    "navigationBarTitleText": "唤醒旧物",
+    "navigationBarBackgroundColor": "#111111",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#111111"
+  },
+  "tabBar": {
+    "color": "#888888",
+    "selectedColor": "#F5C15C",
+    "backgroundColor": "#111111",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/today/today",
+        "text": "今日"
+      },
+      {
+        "pagePath": "pages/calendar/calendar",
+        "text": "日历"
+      },
+      {
+        "pagePath": "pages/talk/talk",
+        "text": "它说"
+      },
+      {
+        "pagePath": "pages/bind/bind",
+        "text": "绑定"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

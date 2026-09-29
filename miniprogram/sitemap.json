@@ -1,0 +1,4 @@
+{
+  "desc": "wake-the-dust",
+  "rules": [{ "action": "allow", "page": "*" }]
+}
