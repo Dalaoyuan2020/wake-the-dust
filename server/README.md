@@ -1,5 +1,5 @@
 # server
 
-Chat API 代理。Key 不进仓库。
+`talk.js` 是 Cloudflare Worker 语法。Key 放环境变量，不进仓库。
 
-待写。
+没有 Key 时返回死话，演示不中断。

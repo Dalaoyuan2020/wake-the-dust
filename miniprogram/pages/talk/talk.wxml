@@ -1,0 +1,5 @@
+<view class="wrap">
+  <view class="msg {{item.role}}" wx:for="{{msgs}}" wx:key="index">{{item.text}}</view>
+  <input class="inp" value="{{input}}" bindinput="onInput" confirm-type="send" bindconfirm="send" placeholder="对它说" />
+  <view class="btn" bindtap="send">发</view>
+</view>

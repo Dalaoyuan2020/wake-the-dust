@@ -1,0 +1,12 @@
+<view class="wrap">
+  <view class="h1">找铃</view>
+  <view class="sub">广播名 WakeDust-10kg。小程序要留在前台。</view>
+  <view class="btn" bindtap="scan" wx:if="{{!scanning}}">开始搜</view>
+  <view class="btn btn-ghost" bindtap="stop" wx:else>停止</view>
+  <view class="card" wx:if="{{err}}">{{err}}</view>
+  <view class="card" wx:if="{{connected}}">已连 {{connected}}</view>
+  <view class="card" wx:if="{{last}}">reps {{last.reps}} · {{last.sec}}s · {{last.done ? '算数' : '还在举'}}</view>
+  <view class="card" wx:for="{{devices}}" wx:key="deviceId" data-id="{{item.deviceId}}" data-name="{{item.name}}" bindtap="connect">
+    {{item.name}}
+  </view>
+</view>

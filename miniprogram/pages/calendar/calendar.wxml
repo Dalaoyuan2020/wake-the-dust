@@ -1,0 +1,6 @@
+<view class="wrap">
+  <view class="h1">{{streak}} 天没落灰</view>
+  <view class="grid">
+    <view class="cell {{item.on ? 'on' : ''}}" wx:for="{{cells}}" wx:key="k">{{item.day}}</view>
+  </view>
+</view>

@@ -1,0 +1,10 @@
+<view class="wrap">
+  <view class="sub">{{name}}</view>
+  <view class="h1">{{on ? '今天算数了' : '今天还没离过地'}}</view>
+  <view class="card">
+    <view class="gold" style="font-size: 80rpx;">{{streak}}</view>
+    <view class="sub">无灰天数</view>
+    <view style="margin-top: 24rpx;">{{line}}</view>
+  </view>
+  <view class="btn" bindtap="fakeLift">没板子时：手点一下算举过</view>
+</view>

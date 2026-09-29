@@ -1,0 +1,10 @@
+.msg { margin-top: 20rpx; padding: 20rpx 24rpx; border-radius: 20rpx; max-width: 80%; }
+.msg.iron { background: #1c1c1c; }
+.msg.me { background: #f5c15c; color: #111; margin-left: auto; }
+.inp {
+  margin-top: 32rpx;
+  background: #1c1c1c;
+  padding: 20rpx;
+  border-radius: 16rpx;
+  color: #fff;
+}

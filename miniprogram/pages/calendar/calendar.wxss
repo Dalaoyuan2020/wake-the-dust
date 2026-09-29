@@ -1,0 +1,20 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 32rpx;
+  gap: 12rpx;
+}
+.cell {
+  width: 72rpx;
+  height: 72rpx;
+  line-height: 72rpx;
+  text-align: center;
+  background: #222;
+  color: #555;
+  border-radius: 12rpx;
+  font-size: 24rpx;
+}
+.cell.on {
+  background: #f5c15c;
+  color: #111;
+}
